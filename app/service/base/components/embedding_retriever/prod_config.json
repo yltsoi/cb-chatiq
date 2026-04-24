@@ -1,0 +1,17 @@
+{
+    "openai":
+    {
+        "api_type": "azure",
+        "api_base": "https://llm-multitenancy-srv.jpmcahse.net/ver2/",
+        "api_key": "6c719111-9dd464df803d2a4e6bf73fe8",
+        "api_version": "2023-05-15",
+        "deployment_id" : "text-embedding-ada-002",
+        "deployment_name": "GPT-4i-2024-05-13"
+    },
+    "sbert":
+    {
+        "model_name": "sentence-transforamers/all-mpnet-base-v2"
+    }
+
+
+}

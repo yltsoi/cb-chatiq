@@ -1,0 +1,11 @@
+{
+    "intent_classifier_config": "service/base/components/intent_deducer/config.json",
+    "embedder_config" : "service/base/components/embedding_retriever/prod_config.json",
+    "open_serach_db_config": "service/base/components/vectordb_doc_retriever/prod_base_config.json",
+    "llm_config": "service/base/components/chatiq_llm/prod_config.json",
+    "qa_config": "service/base/components/llm_response_retriever/config.json",
+    "cred_file_path": "service/base/components/utils/creds.txt",
+    "reranker_config": "service/base/components/vectordb_doc_reranker/prod_config.json",
+    "intent_llm_model_name": "gpt40-multitenant-apim",
+    "qa_llm_model_name": "gpt40-multitenant-apim"
+}

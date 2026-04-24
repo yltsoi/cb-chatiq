@@ -1,0 +1,63 @@
+{
+    "chatgpt":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2023-05-15",
+        "deployment_name": "gpt-35-turbo-1106",
+        "temperature": 0.0,
+        "max_token": 2048,
+        "token_limit": 4096
+    },
+    "chatgpt-16k":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2023-05-15",
+        "deployment_name": "gpt-35-turbo-0125-ptu",
+        "temperature": 0.0,
+        "max_token": 2048,
+        "token_limit": 4096
+    },
+    "gpt4":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2023-05-15",
+        "deployment_name": "gpt-4-32k-0613",
+        "temperature": 0.0,
+        "max_token": 2048,
+        "token_limit": 4096
+    },
+    "gpt4-32k":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2023-05-15",
+        "deployment_name": "gpt-4-32k-0613",
+        "temperature": 0.0,
+        "max_token": 2048,
+        "token_limit": 32768
+    },
+   "gpt4o":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2023-05-15",
+        "deployment_name": "gpt-4o-2024-05-chatiq-ptu",
+        "temperature": 0.0,
+        "max_token": 4096,
+        "token_limit": 128000
+    },    
+    "gpt4o-multitenant-apim":
+    {
+        "api_type": "azure_ad",
+        "api_base": "https://llmopenai.jpmchase.net/W????-usw-srv/",
+        "api_version": "2024-10-21",
+        "api_key": "6c719111109dd480303d03a3e6b738fe8",
+        "deployment_name": "gpt-4o-2024-08-06",
+        "temperature": 0.0,
+        "max_token": 4096,
+        "token_limit": 128000
+    }
+}
